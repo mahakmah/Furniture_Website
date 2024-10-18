@@ -1,0 +1,376 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+/* Navbar Panel */
+.navbar{
+    background-color: rgb(33, 33, 33);
+    height:110px;
+    width:100%;
+    display: flex;
+    position: fixed;
+}
+/* Navbar logo */
+.logo{
+    color: white;
+    font-weight: 900;
+    font-size: 150%;
+    font-family:fantasy;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+/* Navbar quote */
+.quote{
+    margin-top: 16px;
+    margin-left: 140px;
+    font-weight: 900;
+    font-size:110%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    color: white;
+}
+/* Navbar Options */
+.nav-options{
+    width:1000px;
+    margin-left:130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    margin-top:40px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+a:hover{
+    color:rgb(243, 143, 14);
+}
+/* Hero-Section */
+.hero-section{
+    height:760px;
+    display: flex;
+}
+/* Hero Writing */
+.hero-writing{
+    width:900px;
+    color:white;
+    background-color:rgb(243, 143, 14);
+    font-weight: 800;
+    font-size: 300%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+/* Hero Writing Section Animation */
+.hero-para{
+    animation-name: herocontent;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes herocontent {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+/* About us Section */
+.About{
+    margin-top:15px;
+    height:730px;
+    display: flex;
+   
+}
+/* About us Heading */
+.heading-aboutus{
+    height:630px;
+    width:900px;
+    margin-top: 120px;
+    text-align: center;
+    font-size:xxx-large;
+    font-weight: 900;
+    font-style: oblique;
+    color:rgb(243, 143, 14);
+    cursor:pointer;
+    
+}
+
+
+/* About us , Collection, New Arrivals Images */
+.images{
+    border-radius: 13px;
+    transition: 1s;
+}
+/* transition on images */
+.images:hover{
+    transform: scale(1.03);
+    z-index: 1;
+}
+/* About us Content */
+.content-aboutus{
+    height:730px;
+    width:800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:large;
+    font-weight: 550;
+    font-style:normal;
+    background-color:black;
+    color:white;
+    padding-left: 10px;
+    border-radius: 10px;
+    
+}
+
+/* Collections Section */
+.collections{
+    background-color: rgb(248, 243, 234);
+    height:620px;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom:20px;
+    display: flex;
+    background-color: white;
+}
+/* Collections Heading  */
+.heading-section-collection{
+   
+    width:900px;
+    font-style: oblique;
+    font-size: xx-large;
+    cursor: pointer;
+    margin-left:25px;
+    margin-top: 300px;
+    
+} 
+/* Collections Images */
+.b1{
+    padding-top:75px;
+    padding-left:30px;
+}
+.b2{
+    padding-top:75px;
+}
+
+/* Shopping Section */
+.shop-section{
+    height:800px;
+
+
+}
+/* Shopping Heading Section */
+.heading-section-product{
+    color:rgb(68, 68, 68);
+    font-size: xx-large;
+
+    padding-top:100px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.box-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Product 1 */
+.box1{
+    margin-top:2px;
+    height:250px;
+    width:300px;
+    display:flex;
+    justify-content: center;
+    background-image: url("images/box1.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+/* Product 2 */
+.box2{
+    margin-top:2px;
+    height:250px;
+    width:300px;
+    background-image: url("images/box2.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+/* Product 3 */
+.box3{
+    margin-top:2px;
+    height:250px;
+    width:300px;
+    background-image: url("images/box3.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+/* Product 4 */
+.box4{
+    margin-top:2px;
+    height:250px;
+    width:300px;
+    background-image: url("images/box4.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+/* Product 5 */
+.box5{
+    margin-top:24px;
+    height:250px;
+    width:300px;
+    background-image: url("images/box5.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+/* Product 6 */
+.box6{
+    margin-top:24px;
+    height:250px;
+    width:300px;
+    background-image: url("images/box6.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+/* Product 7 */
+.box7{
+    margin-top:24px;
+    height:250px;
+    width:300px;
+    background-image: url("images/box7.jpeg");
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+/* Product 8 */
+.box8{
+    margin-top:24px;
+    height:250px;
+    width:300px;
+    background-image: url("images/box8.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+/* transition on box */
+.boxeffect:hover{
+    transform: scale(1.07);
+    z-index: 2;
+}
+.box-content{
+    margin-top:5px;
+    text-align: center;
+    font-size:110%;
+    font-weight: bold;
+    font-style: italic;
+    cursor:pointer;
+
+}
+/* Contact Section */
+.contact{
+    height:680px;
+    margin-top:30px;
+    display: flex;
+    border-top: 10px solid black;
+}
+/* Contact Heading */
+.contact-heading{
+    height:680px;
+    width:100%;
+    padding-top: 110px;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: 600;
+    font-style: oblique;
+    color:white;
+    background-color:rgb(243, 143, 14);
+    border:0px solid rgb(243, 143, 14);
+   
+    
+}
+/* Contact Options */
+.contact-options{
+    height:400px;
+    width:800px;
+    margin-top:30px;
+    margin-left:500px;
+}
+/* Contact icons */
+.co{
+    height:166px;
+    width:500px;
+    font-style: normal;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* Contact icon border */
+.icon-border{
+    padding:20px;
+    height:40px;
+    width:40px;
+    border:2px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+
+/* Contact ways */
+.icon-heading{
+    font-size: xxx-large;
+    color:black;
+}
+/* Description of Contact ways */
+.desc{
+    font-size: x-large;
+    font-weight: 300;
+}
+/* Footer Section */
+.footer{
+    height:300px;
+    margin-top:100px;
+    padding:8px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor:pointer
+}
+/* Headings */
+.footer-headings{
+    margin-top:40px;
+    height:270px;
+    width:300px;
+    color:white;
+    
+}
+
+.list{
+    list-style-type:none;
+}
+.listhover:hover{
+    color:rgb(243, 143, 14);
+}
+/* Copy-Right Section */
+.copy-right{
+    height:30px;
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top: 2px solid white;
+    cursor: pointer;
+}
+/* Making Responsive */
+@media(max-width:991px){
+    header{
+        padding:18px 4%;
+    }
+}
